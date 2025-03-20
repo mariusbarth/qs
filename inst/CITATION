@@ -5,8 +5,8 @@ url  <- "https://cran.r-project.org/package=qs"
 
 bibentry(
   bibtype = "Manual"
-  , textVersion = sprintf("Ching, T. (%s). Quick Serialization of R Objects. %s. Retrieved from %s.", year, note, url)
-  , title = "{QS}: Quick Serialization of {R} Objects"
+  , textVersion = sprintf("Ching, T. (%s). qs: Quick Serialization of R Objects. %s. Retrieved from %s.", year, note, url)
+  , title = "{qs}: Quick Serialization of {R} Objects"
   , author = person("Travers", "Ching")
   , year = year
   , note = note
