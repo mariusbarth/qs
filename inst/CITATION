@@ -1,0 +1,14 @@
+
+year <- sub("-.*", "", meta$Date)
+note <- paste0("R package version ", meta$Version)
+url  <- "https://cran.r-project.org/package=qs"
+
+bibentry(
+  bibtype = "Manual"
+  , textVersion = sprintf("Ching, T. (%s). Quick Serialization of R Objects. %s. Retrieved from %s.", year, note, url)
+  , title = "{QS}: Quick Serialization of {R} Objects"
+  , author = person("Travers", "Ching")
+  , year = year
+  , note = note
+  , url = url
+)
